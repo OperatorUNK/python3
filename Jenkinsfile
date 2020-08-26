@@ -13,7 +13,7 @@ pipeline {
                     //echo bat(returnStdout: true, script: 'choco -?')
                     //echo "**************Install python *******************"
                     //echo bat(returnStdout: true, script: 'choco install python -y')
-                    echo bat(returnStdout: true, script: 'py -3 C:\\jenkins\\workspace\\python_test\\Python2\\Hello_python3.py')
+                    echo bat(returnStdout: true, script: 'cd C:\\jenkins\\workspace\\python_test\\Python3 && py -3 Hello_python3.py')
                     
                     
                 }
