@@ -13,6 +13,7 @@ pipeline {
                     //echo bat(returnStdout: true, script: 'choco -?')
                     //echo "**************Install python *******************"
                     //echo bat(returnStdout: true, script: 'choco install python -y')
+                    //echo "************** Run python v3 file *******************"
                     echo bat(returnStdout: true, script: 'cd C:\\jenkins\\workspace\\python_test\\Python3 && py -3 Hello_python3.py')
                     
                     
